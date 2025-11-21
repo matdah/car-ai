@@ -1,0 +1,41 @@
+[
+  {
+    "filename": "2015_Koenigsegg_Agera_N_(19886243212).jpg",
+    "data": {
+      "make": "Koenigsegg",
+      "model": "Agera",
+      "type": "Sportbil",
+      "year": "2010-2018",
+      "color": "Vit",
+      "condition": "bra",
+      "estimated_value": "15000000",
+      "description": "En högpresterande sportbil med aerodynamisk design och kolfiberdetaljer. Känd för sin hastighet och exklusivitet."
+    }
+  },
+  {
+    "filename": "kia.jpg",
+    "data": {
+      "make": "Kia",
+      "model": "Cee'd",
+      "type": "Kombi",
+      "year": "2015",
+      "color": "Brun",
+      "condition": "Bra",
+      "estimated_value": "100000",
+      "description": "En brun Kia Cee'd kombi med modern design och välvårdat yttre. Bilen har en sportig front och är i bra skick."
+    }
+  },
+  {
+    "filename": "skoda.jpg",
+    "data": {
+      "make": "Skoda",
+      "model": "Octavia",
+      "type": "Kombi",
+      "year": "2010",
+      "color": "Silver",
+      "condition": "bra",
+      "estimated_value": "60000",
+      "description": "En silverfärgad Skoda Octavia Kombi med takräcke och aluminiumfälgar. Bilen ser välvårdad ut med en modern design."
+    }
+  }
+]

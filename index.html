@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Begagnade bilar</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Välkommen till Begagnade bilar</h1>
+            <p>Analys med hjälp av AI för att ge dig detaljerad information om
+                varje bil.</p>
+
+            <main></main>
+        </div>
+
+        <script>
+        window.onload = load;
+
+        function load() {
+            // FetchAPI till carinfo.json
+            fetch('carinfo.json')
+                .then(response => response.json())
+                .then(data => {
+                    const main = document.querySelector('main');
+                    data.forEach(car => {
+                        const section = document.createElement('section');
+                        section.innerHTML = `
+                            <h2>${car.data.make} ${car.data.model} (${car.data.year})</h2>
+                            <img src="images/${car.filename}" alt="${car.make} ${car.model}" width="300">
+                            <p><strong>Typ:</strong> ${car.data.type}</p>
+                            <p><strong>Färg:</strong> ${car.data.color}</p>
+                            <p><strong>Skick:</strong> ${car.data.condition}</p>
+                            <p><strong>Uppskattat värde:</strong> ${car.data.estimated_value}:-</p>
+                            <div class="description">
+                                <strong>Beskrivning:</strong>
+                                <p>${car.data.description}</p>
+                            </div>
+                        `;
+                        main.appendChild(section);
+                    });
+                })
+                .catch(error => console.error('Error fetching car info:', error));
+        }
+    </script>
+    </body>
+</html>
