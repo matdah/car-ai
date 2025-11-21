@@ -1,15 +1,15 @@
 [
   {
-    "filename": "2015_Koenigsegg_Agera_N_(19886243212).jpg",
+    "filename": "e0b757de10bdfddac9adbbc6210fc388~v161314401.jpg",
     "data": {
-      "make": "Koenigsegg",
-      "model": "Agera",
-      "type": "Sportbil",
-      "year": "2010-2018",
-      "color": "Vit",
-      "condition": "bra",
-      "estimated_value": "15000000",
-      "description": "En högpresterande sportbil med aerodynamisk design och kolfiberdetaljer. Känd för sin hastighet och exklusivitet."
+      "make": "Lexus",
+      "model": "NX",
+      "type": "SUV",
+      "year": "2018",
+      "color": "Silver",
+      "condition": "använd",
+      "estimated_value": "350000",
+      "description": "Lexus NX i silverfärg med modern design och hybridmärkning. Fronten har en mindre skada som kan kosta cirka 10,000 SEK att reparera."
     }
   },
   {
@@ -20,9 +20,22 @@
       "type": "Kombi",
       "year": "2015",
       "color": "Brun",
-      "condition": "Bra",
+      "condition": "bra",
       "estimated_value": "100000",
-      "description": "En brun Kia Cee'd kombi med modern design och välvårdat yttre. Bilen har en sportig front och är i bra skick."
+      "description": "Brun Kia Cee'd kombi i bra skick. Inga synliga skador eller repor. Modern design med sportiga linjer."
+    }
+  },
+  {
+    "filename": "photo-1673187139612-6bf684a74815.jpg",
+    "data": {
+      "make": "Volkswagen",
+      "model": "Tiguan",
+      "type": "SUV",
+      "year": "2008",
+      "color": "Silver",
+      "condition": "dåligt skick",
+      "estimated_value": "50000",
+      "description": "Bilen har betydande skador på vänster framsida, inklusive bucklor och trasiga delar. Reparationer kan kosta mellan 20,000 och 30,000 kronor beroende på omfattningen av skadorna."
     }
   },
   {
@@ -35,7 +48,7 @@
       "color": "Silver",
       "condition": "bra",
       "estimated_value": "60000",
-      "description": "En silverfärgad Skoda Octavia Kombi med takräcke och aluminiumfälgar. Bilen ser välvårdad ut med en modern design."
+      "description": "En silverfärgad Skoda Octavia Kombi i bra skick. Inga synliga skador eller repor. Utrustad med takräcke och aluminiumfälgar."
     }
   }
 ]

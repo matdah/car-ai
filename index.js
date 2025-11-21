@@ -109,7 +109,7 @@ Svara BARA med JSON, inga andra ord eller formatering.`
 - Färg
 - Skick (condition) (t.ex. "ny", "bra", "använd", "dåligt skick")
 - Uppskattat värde (estimated_value) i svenska kronor (ungefärligt är okej)
-- En kort beskrivning (description) av bilens utseende och eventuella unika egenskaper.
+- En kort beskrivning (description) av bilens utseende och eventuella unika egenskaper. Om bilen har skador, skriv en kort beskrivning över ungefär hur mycket det skulle kosta att reparera dem.
 
 Kom ihåg: enbart JSON, inga andra ord.`
                                 },
