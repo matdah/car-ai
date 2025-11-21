@@ -107,7 +107,7 @@ Svara BARA med JSON, inga andra ord eller formatering.`
 - Typ (type) (t.ex. "Sedan", "Kombi", "SUV", "Cabriolet")
 - Årsmodell (year) (ungefärlig är okej, plus minus några år)
 - Färg
-- Skick (condition) (t.ex. "ny", "bra", "använd", "dåligt skick")
+- Skick (condition) (t.ex. "Ny", "Bra", "Använd", "Dåligt skick")
 - Uppskattat värde (estimated_value) i svenska kronor (ungefärligt är okej)
 - En kort beskrivning (description) av bilens utseende och eventuella unika egenskaper. Om bilen har skador, skriv en kort beskrivning över ungefär hur mycket det skulle kosta att reparera dem.
 
